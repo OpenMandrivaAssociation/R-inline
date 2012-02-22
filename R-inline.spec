@@ -1,10 +1,10 @@
-%bcond_without bootstrap
+%bcond_with bootstrap
 %global packname  inline
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
 Version:          0.3.8
-Release:          1
+Release:          2
 Summary:          Inline C, C++, Fortran function calls from R
 Group:            Sciences/Mathematics
 License:          LGPL
