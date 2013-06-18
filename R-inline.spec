@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          0.3.8
-Release:          3
+Release:          4
 Summary:          Inline C, C++, Fortran function calls from R
 Group:            Sciences/Mathematics
 License:          LGPL
