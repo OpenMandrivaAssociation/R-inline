@@ -3,13 +3,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          0.3.8
-Release:          4
+Version:          0.3.13
+Release:          1
 Summary:          Inline C, C++, Fortran function calls from R
 Group:            Sciences/Mathematics
 License:          LGPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/inline_0.3.13.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-methods 
@@ -63,4 +63,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 776517
 - Import R-inline
 - Import R-inline
+
 
