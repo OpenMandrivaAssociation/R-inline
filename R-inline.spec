@@ -8,7 +8,7 @@ Release:          2
 Summary:          Inline C, C++, Fortran function calls from R
 Group:            Sciences/Mathematics
 License:          LGPL
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/inline_0.3.13.tar.gz
 BuildArch:        noarch
 Requires:         R-core
